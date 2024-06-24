@@ -1,4 +1,4 @@
-package Search;
+
 import java.util.Arrays;
 
 public class Search_2D {

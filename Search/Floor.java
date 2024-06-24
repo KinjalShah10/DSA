@@ -1,4 +1,4 @@
-package Search;
+
 public class Floor {
     public static void main(String[] args) {
         int[] arr = {1,8,55,4,9,7,5};
