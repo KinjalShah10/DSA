@@ -1,7 +1,7 @@
 public class Overloading {
     public static void main(String[] args) {
 //        fun(67);
-//        fun("Kunal Kushwaha");
+//        fun("Kinjal Shah");
         int ans = sum(3, 4, 78);
         System.out.println(ans);
     }
