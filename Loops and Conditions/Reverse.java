@@ -1,16 +1,16 @@
 public class Reverse {
     public static void main(String[] args) {
-        int num = 123456;
-
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
         int ans = 0;
-
-        while (num > 0) {
-            int rem = num % 10;
-            num /= 10;
-
-            ans = ans * 10 + rem;
+        
+        while(n>0){
+            int rem = n % 10;
+            ans = (ans * 10) +rem;
+            
+            n=n/10;
         }
-
+        
         System.out.println(ans);
     }
 }
