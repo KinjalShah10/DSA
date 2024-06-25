@@ -2,7 +2,7 @@ public class Scope {
     public static void main(String[] args) {
         int a = 10;
         int b = 20;
-        String name = "Kunal";
+        String name = "Kinjal";
         {
 //                int a = 78; // already initialised outside the block in the same method, hence you cannot initialise again
                 a = 100; // reassign the origin ref variable to some other value
